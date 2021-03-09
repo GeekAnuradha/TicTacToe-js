@@ -1,0 +1,74 @@
+body {
+	text-align: center;
+	font-family: Andale Mono;
+}
+
+h2 {
+	margin: 0 auto;
+	font-size: 35px;
+	margin: 10px;
+}
+
+.square {
+	border: 2px solid rgba(0, 0, 0, .75);
+	height: 140px;
+	width: 140px;
+}
+
+#reset {
+	border: none;
+	background: #404040;
+	color: #ffffff !important;
+	font-weight: 100;
+	padding: 20px;
+	text-transform: uppercase;
+	border-radius: 6px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+	margin: 20px;
+}
+
+#reset:hover {
+	color: #404040 !important;
+	font-weight: 700 !important;
+	letter-spacing: 3px;
+	background: none;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+	box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+	transition: all 0.3s ease 0s;
+}
+
+.x {
+	color: darksalmon;
+	position: relative;
+	font-size: 9em;
+	cursor: default;
+	font-family: Bradley Hand;
+}
+
+.o {
+	color: aquamarine;
+	position: relative;
+	font-size: 9em;
+	cursor: default;
+	font-family: Bradley Hand;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-column {
+	height: 100%;
+	width: 100%;
+	flex-direction: column;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+	height: 432px;
+	width: 432px;
+}
